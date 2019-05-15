@@ -25,3 +25,19 @@ app.use(routes);
 app.listen(PORT, function() {
   console.log("App now listening at localhost:" + PORT);
 });
+
+// in "scripts"
+// "start": "node server.js",
+// "watch": "nodemon server.js"
+
+// "engines" : {
+//   "node" : "10.15.3"
+// },
+
+// var connection = mysql.createConnection({
+//   host: "us-cdbr-iron-east-02.cleardb.net",
+//   port: 8889,
+//   user: "bb60f738bf0b6e",
+//   password: "8ece0986",
+//   database: "heroku_3f2114fb02a15d5"
+// });
